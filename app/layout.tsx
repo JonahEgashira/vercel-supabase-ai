@@ -10,6 +10,7 @@ import { Providers } from '@/components/providers'
 import { Header } from '@/components/header'
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://vercel-supabase-ai.vercel.app/'),
   title: {
     default: 'Next.js AI Chatbot',
     template: `%s - Next.js AI Chatbot`
